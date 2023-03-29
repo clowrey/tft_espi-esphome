@@ -41,7 +41,7 @@ async def to_code(config):
     cg.add_build_flag("-DTFT_RST=1")
     cg.add_build_flag("-DTFT_CS=10")
     cg.add_build_flag("-DTFT_DC=11")
-    cg.add_build_flag("-DTFT_SCK=12")
+    cg.add_build_flag("-DTFT_SCLK=12")
     cg.add_build_flag("-DTFT_MOSI=13")
     
     cg.add_build_flag("-DLOAD_GLCD=1")
