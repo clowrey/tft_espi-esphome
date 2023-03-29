@@ -1,5 +1,5 @@
 # esp32-1732s019 ST7789 esphome
-esp32-1732s019 S3 (ST7789) running ESPHome using patched tft_espi
+esp32-1732s019 S3 (ST7789) running ESPHome using tft_espi
 
 ![](https://github.com/clowrey/tft_espi-esphome/blob/main/esp32-1732s019.jpg?raw=true)
 
