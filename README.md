@@ -1,5 +1,5 @@
-# lilygo tdisplay s3 ST7789 esphome
-Lilygo T-display S3 (ST7789) running ESPHome using patched tft_espi
+# esp32-1732s019 ST7789 esphome
+esp32-1732s019 S3 (ST7789) running ESPHome using patched tft_espi
 
 ![](https://github.com/clowrey/tft_espi-esphome/blob/main/esp32-1732s019.jpg?raw=true)
 
@@ -9,7 +9,7 @@ esphome:
   name: s3
 
 external_components:
-  - source: github://landonr/lilygo-tdisplays3-esphome
+  - source: github://clowrey/tft_espi-esphome
     components: [tdisplays3]
 
 esp32:
@@ -34,7 +34,7 @@ time:
 
 switch:
   - platform: gpio
-    pin: GPIO38
+    pin: GPIO14
     name: "Backlight"
     id: backlight
     internal: true
